@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran PKL</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Pendaftaran PKL</h2>
+        <div class="profile-logo-container">
+            <div class="profile-logo">
+                <img src="logo smk2.jpg" alt="Foto Profil" class="profile-picture">
+            </div>
+        </div>
+
+        <!-- Biodata -->
+        <h3>Biodata</h3>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="kelas">Kelas:</label>
+                <input type="text" id="kelas" name="kelas" required>
+            </div>
+            <div class="form-group">
+                <label for="tempat_lahir">Tempat Lahir:</label>
+                <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggal_lahir">Tanggal Lahir:</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+            </div>
+            <div class="form-group">
+                <label for="usia">Usia:</label>
+                <input type="number" id="usia" name="usia" required>
+            </div>
+            <div class="form-group">
+                <label for="agama">agama:</label> 
+                <select name="agama" id="agama"> 
+                <option value="islam">islam</option> 
+                <option value="kristen protestan">kristen protestan</option> 
+                <option value="kristen katolik">kristen katolik</option>      
+                <option value="budha">budha</option>
+                <option value="hindu">hindu</option>       
+                <option value="khinghucu">khonghucu</option>      
+                <option value="penghayat kepercayaan">penghayat kepercayaan </option>     
+                 </select>     
+            </div>
+            <div class="form-group">
+                <label for="provinsi">provinsi:</label> 
+                <select name="provinsi" id="provinsi"> 
+                <option value="jawa barat">jawa barat</option> 
+                <option value="jawa tengah">jawa tengah</option> 
+                <option value="jawa timur">jawa timur</option>   
+                <option value="dki jakarta">dki jakarta</option>     
+                </select>     
+            </div>
+            <div class="form-group">
+                <label for="kode_pos">Kode Pos:</label>
+                <input type="text" id="kode_pos" name="kode_pos" required>
+            </div>
+
+            <!-- Alamat -->
+            <h3>Alamat</h3>
+            <div class="form-group">
+                <label for="alamat_lengkap">Alamat Lengkap:</label>
+                <textarea id="alamat_lengkap" name="alamat_lengkap" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="rt_rw">RT/RW:</label>
+                <input type="text" id="rt_rw" name="rt_rw" required>
+            </div>
+            <div class="form-group">
+                <label for="desa kelurahan">desa kelurahan:</label> 
+                <select name="desa kelurahan" id="desa kelurahan"> 
+                <option value="cipada">cipada</option> 
+                <option value="jambudipa">jambudipa</option> 
+                <option value="kertawangi">kertawangi</option>      
+                <option value="pada asih">pada asih</option>
+                <option value="pasir halang">pasir halang</option>  
+                <option value="pasir langu">pasir langu</option>       
+                <option value="tugu mukti">tugu mukti</option>      
+                <option value="sadang mekar">sadang mekar </option>     
+                 </select>     
+            </div>
+            <div class="form-group">
+                <label for="kecamatan">kecamatan:</label> 
+                <select name="kecamatan" id="kecamatan"> 
+                <option value="cisarua">cisarua</option> 
+                <option value="cipatat">cipatat</option> 
+                <option value="cikalong wetan">cikalong wetan</option>      
+                <option value="lembang">lembang</option>
+                <option value="ngamprah">ngamprah</option>       
+                <option value="parompong">parompong</option>      
+                <option value="padalarang">padalarang </option>     
+                 </select>     
+            </div>
+            <div class="form-group">
+                <label for="kabupaten">kabupaten:</label> 
+                <select name="kabupaten" id="kabupaten"> 
+                <option value="bandung barat">bandung barat</option> 
+                <option value="bandung">bandung</option> 
+                <option value="cianjur">cianjur</option>      
+                <option value="sumedang">sumedang</option>
+                <option value="kota bandung">kota bandung</option>       
+                <option value="kota cimahi">kota cimahi</option>      
+                 </select>     
+            </div>
+            
+
+            <!-- Kontak -->
+            <h3>Kontak</h3>
+            <div class="form-group">
+                <label for="no_telpon_siswa">No Telpon Siswa:</label>
+                <input type="tel" id="no_telpon_siswa" name="no_telpon_siswa" required>
+            </div>
+            <div class="form-group">
+                <label for="no_orang_tua">No Orang Tua:</label>
+                <input type="tel" id="no_orang_tua" name="no_orang_tua" required>
+            </div>
+            <div class="form-group">
+                <label for="email_siswa">Email Siswa:</label>
+                <input type="email" id="email_siswa" name="email_siswa" required>
+            </div>
+
+            <!-- Akun -->
+            <h3>Akun</h3>
+            <div class="form-group">
+                <label for="user_name">Username:</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Konfirmasi Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+
+            <!-- Tempat PKL -->
+            <h3>Tempat PKL</h3>
+            <div class="form-group checkbox-group">
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 1"> yogya mart</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 2"> alfamart</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 3"> polsek</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 4"> pt toyota</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 5"> borma</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 6"> hotel</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 7"> bank</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 8"> rjs</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 9"> spn</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 10"> bin</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 11"> retoran</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 12"> pt telkomsel indonesia</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 13"> pt astra indonesia</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 14"> indomaret</label>
+                <label><input type="checkbox" name="tempat_pkl[]" value="Tempat 15"> rajawali</label>
+            </div>
+            <label for="konfirmasi pasword">surat permohonan:</label>
+    <input type="file" id="konfirmasi pasword" name="konfirmasi pasword" required><br></br>    
+
+    <label for="pas-foto">Unggah
+        Pas Foto:</label>
+        <input type="file"
+        id="pas-foto" name="pas-foto"
+        accept="image/*" required><br><br>
+
+        <label for="konfirmasi pasword">upload kartu tanda pelajar:</label>
+        <input type="file" id="konfirmasi pasword" name="konfirmasi pasword" required><br></br>    
+</fieldset>
+    </form>
+
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
